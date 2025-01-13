@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "practise2025"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"csvfiles_connectionString": {
+			"value": ""
+		},
+		"test_SqlDatabase_password": {
+			"value": ""
+		},
+		"AzureBlobStorage2_properties_typeProperties_connectionString_secretName": {
+			"value": "testblobkeyvalue"
+		},
+		"AzureGen2Storage1_properties_typeProperties_url": {
+			"value": "https://storagegen22025.dfs.core.windows.net/"
+		},
+		"KeyVaultlinkedservice_properties_typeProperties_baseUrl": {
+			"value": "https://testpractisekeyvault2025.vault.azure.net/"
+		},
+		"KeyVaultpractice_properties_typeProperties_baseUrl": {
+			"value": "https://practicekeyvault2025.vault.azure.net/"
+		},
+		"test_SqlDatabase_properties_typeProperties_server": {
+			"value": "testsqlserver2025.database.windows.net"
+		},
+		"test_SqlDatabase_properties_typeProperties_database": {
+			"value": "testsqldb"
+		},
+		"test_SqlDatabase_properties_typeProperties_userName": {
+			"value": "sravan"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
