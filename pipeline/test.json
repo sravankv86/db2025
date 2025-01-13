@@ -1,0 +1,14 @@
+{
+	"name": "test",
+	"properties": {
+		"activities": [
+			{
+				"name": "Append variable1",
+				"type": "AppendVariable",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
+		"annotations": []
+	}
+}
