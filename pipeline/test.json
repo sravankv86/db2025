@@ -3,10 +3,31 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Append variable1",
-				"type": "AppendVariable",
+				"name": "Get Metadata1",
+				"type": "GetMetadata",
 				"dependsOn": [],
-				"userProperties": []
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataset": {
+						"referenceName": "metadataallfilesinblob",
+						"type": "DatasetReference"
+					},
+					"fieldList": [],
+					"storeSettings": {
+						"type": "AzureBlobStorageReadSettings",
+						"enablePartitionDiscovery": false
+					},
+					"formatSettings": {
+						"type": "DelimitedTextReadSettings"
+					}
+				}
 			}
 		],
 		"annotations": []
