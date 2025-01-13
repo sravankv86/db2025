@@ -1,0 +1,11 @@
+{
+	"name": "KeyVaultpractice",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://practicekeyvault2025.vault.azure.net/"
+		}
+	}
+}

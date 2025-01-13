@@ -1,0 +1,17 @@
+{
+	"name": "sink_selected_sql_sorcefile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "test_SqlDatabase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "customer"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
